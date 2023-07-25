@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary meta tags --->
+
+    <title>Shoppie - summer collection</title>
+    <meta name="title" content="Shoppie - summer collection" />
+    <meta
+      name="description"
+      content="This is an eCommerce html template made by Shoaib"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- 
+    fontawesome script link  -->
+
+    <script
+      src="https://kit.fontawesome.com/c478d9fbd5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./app.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+  </head>
+  <body>
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#logo">
+          <img
+            src="/assets/images/logo.svg"
+            alt="Logo"
+            height="27"
+            width="132"
+          />
+        </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-lists">
+            <li>
+              <a href="#home" class="nav-links">Home</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-links">Services</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="nav-links">Blog</a>
+            </li>
+
+            <li>
+              <a href="#shop" class="nav-links">Shop</a>
+            </li>
+          </ul>
+
+          <button class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="span">Cart (03)</span>
+          </button>
+
+          <a href="#" class="btn">Contact Us</a>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+          <i class="fa-solid fa-bars" id="bars-icon"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+                hero  -->
+
+        <div class="hero">
+          <div class="container">
+            <div class="hero-content">
+
+              <h1 class="h1 hero-title title">
+                New Summer <br />
+                Styles
+              </h1>
+
+              <p class="hero-text">
+                This is the factor that sets us apart from competition and
+                allows us deliver a specialist business service team applies its
+                ranging experience determining
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                <span class="span">Shop Now</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <div class="hero-banner">
+              <figure class="img-holder" style="--width: 704; --height: 700">
+                <img
+                  src="/assets/images/hero-banner2.jpg"
+                  width="704"
+                  height="700"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+              product  -->
+
+        <section class="section product" aria-label="product">
+          <div class="container">
+            <h2 class="h2 section-title title text-center">
+              Explore new arrivals
+            </h2>
+
+            <ul class="product-list has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F80%2Fed%2F80ed65c20fec929b7eaee81e19c7a814c700f228.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_casual%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Short Sleeve Shirt"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Short Sleeve Shirt</a>
+                    </h3>
+
+                    <span class="price">Rs. 1,999.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fac%2F1c%2Fac1ce1107f0c3f17f266a9be204c4f45b241adf8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Rectangular Sunglasses"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Rectangular Sunglasses</a>
+                    </h3>
+
+                    <span class="price">Rs. 799.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa7%2Fd7%2Fa7d7d2042c2657891bf81857cc4787b41e090924.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_accessories_hatscaps_caps%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Rectangular Sunglasses"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Cap with an applique</a>
+                    </h3>
+
+                    <span class="price">Rs. 999.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F08%2F0f%2F080f9fe827b48ad11dd7f35c9d59a67b6abc54a7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_trousers_cargo%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Rectangular Sunglasses"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title"
+                        >Relaxed Fit Nylon Cargo Trouser
+                      </a>
+                    </h3>
+
+                    <span class="price">Rs. 2,999.00</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+              <!-- 
+                feature  -->
+
+
+        <section class="section feature" aria-label="feature-label">
+          <div class="container">
+            <h2 class="h2 section-title title text-center" id="feature-label">
+              Featured products
+            </h2>
+
+            <ul class="feature-list">
+            
+
+              
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Nike Alphafly"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Nike Alphafly</a>
+                    </h3>
+
+                    <span class="price">Rs. 9,999.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff1%2F22%2Ff12277ca9dea7a546e497733a5c1551026f7133a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shirts_shortsleeved%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Resort Shirt"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Patterned Resort Shirt</a>
+                    </h3>
+
+                    <span class="price">Rs. 1,299.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="/assets/images/product-6.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Garcons Perfume"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Garcons Perfume</a>
+                    </h3>
+
+                    <span class="price">Rs. 2,799.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F5d%2F04%2F5d04a763d793b1c6bd5f25765d3cca1a0a449a24.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Printed T-shirt"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Regular Fit T-Shirt</a>
+                    </h3>
+
+                    <span class="price">Rs. 699.00</span>
+                  </div>
+                </div>
+              </li>
+              
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F23%2F1f%2F231f2d64fe5b99e7308e6a3dcd1025bc8f55b3a7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Scented Candles"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Scented Candles</a>
+                    </h3>
+
+                    <span class="price">Rs. 699.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa3%2F5f%2Fa35f03fe9e87afba4991ec36c4604c5831f33a1c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Baseball Jacket"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <i class="fa-solid fa-bag-shopping"></i>
+
+                      <span class="span">Add To Cart</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Baseball Jacket</a>
+                    </h3>
+
+                    <span class="price">Rs. 2,699.00</span>
+                  </div>
+                </div>
+              </li>
+
+              <a href="#" class="btn btn-secondary">View All Products</a>
+
+            </ul>
+          </div>
+        </section>
+
+              <!-- 
+        - #OFFER
+      -->
+
+      <section class="offer has-bg-image" style="background-image: url('/assets/images/offer-bg.png')">
+        <div class="container">
+
+          <div class="offer-card">
+
+            <h2 class="title card-title">35% Off</h2>
+
+            <p class="card-text">
+              This is the main factor that sets us apart our competition and allows us deliver a specialist business
+              consultancy service
+            </p>
+
+            <a href="#" class="btn btn-secondary">
+              <span class="span">Shop Now</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      </article>
+    </main>
+
+    
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="/assets/images/logo.svg" width="132" height="27" loading="lazy" alt="shoppie home">
+          </a>
+
+          <p class="footer-text">
+            Main factor that sets us apart competition allows deliver a specialist business consultancy service applies
+            its ranging experience
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title title">Contact info</p>
+
+            <address class="footer-text">
+              Neal St, London WC2H 9PR <br>
+              United Kingdom
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:info.shoppie@support.com" class="email">info.shoppie@support.com</a>
+          </li>
+
+          <li>
+            <a href="tel:+00 123 456 789" class="call">+01 123 456 789</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title title">Subscribe newsletter</p>
+
+          <input type="email" name="email_address" placeholder="Enter your email address" required autocomplete="off"
+            class="input-field">
+
+          <button class="btn btn-secondary">Subscribe</button>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <div class="link-wrapper">
+
+            <a href="#" class="footer-bottom-link">Portfolio</a>
+            <a href="#" class="footer-bottom-link">Our Team</a>
+            <a href="#" class="footer-bottom-link">Pricing Plan</a>
+            <a href="#" class="footer-bottom-link">Services</a>
+            <a href="#" class="footer-bottom-link">Contact Us</a>
+
+          </div>
+
+          <div class="link-wrapper">
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </div>
+        </div>
+
+        <p class="copyright">
+          &copy; 2023 Shoaib Hasan, All Rights Reserved
+        </p>
+
+      </div>
+
+      <img src="/assets/images/footer-shape-1.png" width="245" height="165" loading="lazy" alt="shape"
+        class="shape shape-1">
+
+      <img src="/assets/images/footer-shape-2.png" width="138" height="316" loading="lazy" alt="shape"
+        class="shape shape-2">
+
+      <img src="/assets/images/footer-shape-3.png" width="346" height="92" loading="lazy" alt="shape"
+        class="shape shape-3">
+
+    </div>
+  </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
